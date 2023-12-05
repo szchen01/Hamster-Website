@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Playfair+Display&family=Raleway:wght@100&display=swap');
+* {
+    box-sizing:border-box;
+    font-family: Raleway;
+    color: #777;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: normal;
+    border-bottom: 1px solid rgba(255,255,255,.3)
+}
+.main-nav li {
+    padding: 0 5%;
+}
+.nav a:hover {
+    background-color: rgba(255,255,255,.3)
+}
+/* em {
+    color: red;
+    font-style: normal;
+} */
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    margin: 15px;
+}
+/* .pfp-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* img.footer {
+    width: 50px;
+} */
+img.gallery {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+img.calculator {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.main-header {
+    background-color: rgba(0,0,0,.3);
+    background-image: url(/images/wood-shavings-2.jpeg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+.my-name {
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    font-family: Playfair Display;
+    font-weight: normal;
+    color: white;
+}
+.my-name-large {
+    font-size: 4em;
+}
+
+.section-content {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: Alegreya;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.main-footer {
+    background-color: rgba(100, 50, 0, 0.6);
+    color: white;
+    padding: 0.25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    /* filter: grayscale(100%); */
+    background-color: white;
+    border-radius: 15%;
+    padding: 5px;
+}
+section.tenets {
+    background-color: rgba(100,50,0,0.6);
+    width: 30em;
+    padding: 10px;
+    border: 10px;
+    border-color: white;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.tenets ol {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: justify;
+}
+.tenets li {
+    color: white;
+}
+.tenets .section-header {
+    color: white;
+    border-right: 2px solid white;
+}
